@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ГТС — Официальный Сектор</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-noise"></div>
+
+    <!-- ФИКСИРОВАННАЯ ШАПКА ДЛЯ КОМПАКТНОСТИ -->
+    <header class="main-header">
+        <div class="logo">сосал?</div>
+        <nav class="nav-links">
+            <span class="nav-item active" data-target="hero">Главная</span>
+        
+        </nav>
+    </header>
+
+    <main id="content-container">
+
+        <!-- 1. ДВУХКОЛОНОЧНЫЙ ГЛАВНЫЙ ЭКРАН -->
+        <section class="section hero-grid" id="hero">
+            <div class="hero-left">
+                <div class="sun-wrapper">
+                    <div class="eclipse-core"></div>
+                    <div class="eclipse-flare"></div>
+                </div>
+                <h1 class="main-title">ГТС</h1>
+                <p class="tagline">Гильдия Темного Солнца</p>
+                <a href="#" class="btn-primary">Вступить в клан</a>
+            </div>
+            
+            <div class="hero-right">
+                <div class="glass-panel manifesto">
+                    <h3>//Манифест</h3>
+                    <p>Мы не ищем простых путей. Нужно построить громные фермы? Сделаем. Нужны ресурсы? Получим.</p>
+                    <p>Кароче логика ясна</p>
+                </div>
+                <div class="glass-panel status-widget">
+                    <h3>//Статус Активности</h3>
+                    <div class="status-line"><span class="dot online"></span> Основной сервер: <span>AmberLand: amberland.pro</span></div>
+                    <div class="status-line"><span class="dot war"></span>Игроков:<span>достаточно.</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ГОРИЗОНТАЛЬНЫЙ СКРОЛЛ (Экономия места) -->
+        <section class="horizontal-overflow" id="horizontal">
+            <div class="horizontal-trigger">
+                <div class="horizontal-scroll-cards">
+                    <div class="slide-title-card">
+                        <h2>Наши<br>Столпы</h2>
+                        <p>Листай дальше →</p>
+                    </div>
+                    <div class="h-card">
+                        <span class="num">01</span>
+                        <h3>Свобода слова</h3>
+                        <p>Свобода слова и сила общего труда и темной руки - наше преимущество</p>
+                    </div>
+                    <div class="h-card">
+                        <span class="num">02</span>
+                        <h3>Дисциплина</h3>
+                        <p>дрочить.</p>
+                    </div>
+                    <div class="h-card">
+                        <span class="num">03</span>
+                        <h3>Великие Стройки</h3>
+                        <p>Возводим неприступные цитадели, великие фермы, и просто свастоны</p>
+                    </div>
+                    <div class="h-card">
+                        <span class="num">04</span>
+                        <h3>Послушание</h3>
+                        <p>сказали дрочить? дрочим.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ИНТЕРАКТИВНАЯ ЦИТАДЕЛЬ (Управление контентом) -->
+        <section class="section" id="citadel">
+            <div class="citadel-container">
+                <div class="tabs-control">
+                    <button class="tab-btn active" data-tab="tab-rules">Кодекс</button>
+                    <button class="tab-btn" data-tab="tab-ranks">Иерархия</button>
+                    <button class="tab-btn" data-tab="tab-req">Критерии</button>
+                </div>
+                
+                <div class="tabs-content glass-panel">
+                    <div class="tab-pane active" id="tab-rules">
+                        <h3>Законы гильдии</h3>
+                        <ul>
+                            <li>Делаем то что хотим, но в пределах разумного.</li>
+                            <li>Приказ гордекса - необсуждаемый вопрос.</li>
+                            <li>Уважение к братьям по оружию, беспощадность к хуесосам.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="tab-ranks">
+                        <h3>Структура ГТС</h3>
+                        <div class="rank-item"><strong>Гордекс (Глава)</strong> — Абсолютная власть и стратегия.</div>
+                        <div class="rank-item"><strong>Руководители</strong> — Тактика, набор, судейство.</div>
+                        <div class="rank-item"><strong>Люди пешки - о орешки</strong> — Ударная сила ордена.</div>
+                    </div>
+                    <div class="tab-pane" id="tab-req">
+                        <h3>Кто нам нужен?</h3>
+                        <p>Возраст 16+, стабильный онлайн, наличие Discord и микрофона. Но главное — прямые руки в PvP или фанатичная любовь к масштабному строительству. Лентяев держим.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
